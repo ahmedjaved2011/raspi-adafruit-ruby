@@ -1,7 +1,11 @@
 GEM
   remote: http://rubygems.org/
   specs:
+    ffi (1.9.0)
     i2c (0.2.22)
+    pi_piper (1.3.1)
+      ffi
+    system-getifaddrs (0.2.0)
     wiringpi (1.1.0)
 
 PLATFORMS
@@ -10,4 +14,5 @@ PLATFORMS
 DEPENDENCIES
   i2c
   pi_piper
+  system-getifaddrs
   wiringpi
